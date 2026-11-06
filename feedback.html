@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+
+<body>
+    <header>
+    <h1>Feedback Form</h1>
+    </header>
+<nav>
+    <ul>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="profile.html">Profile</a></li>
+     <li><a href="course.html">Courses</a></li>
+     <li><a href="feedback.html">Feedback</a></li>
+     <li><a href="grades.html">Grades</a></li>
+     <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+
+<main>
+    <h2>Share Your Feedback</h2>
+
+<form>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name">
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email">
+    <br><br>
+
+ <label>Gender:</label>
+
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label>
+
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label>
+
+<br><br>
+
+<label>
+    <input type="checkbox" name="agree">
+    I agree to the terms and conditions
+</label>
+
+<br><br>
+
+    <label for="course">Course:</label>
+    <select id="course">
+        <option>Foundations of IT</option>
+        <option>Mathematics for Computer Science</option>
+        <option>Database Management System</option>
+    </select>
+    <br><br>
+
+    <label for="feedback">Your Feedback:</label>
+    <br>
+    <textarea id="feedback" rows="4" cols="30"></textarea>
+    <br><br>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+    <hr>
+    </main>
+
+    <footer>
+    <p>&copy; 2026 Student Portal. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
